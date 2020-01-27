@@ -12,7 +12,11 @@ outer_results = []
 row_index = 0
 while row_index < src.count do
   
+<<<<<<< HEAD
   outer_results.push ("I love "+ (src[row_index][0]) +" and "+ (src[row_index][1])+" on my pizza")
+=======
+  outer_results << ("I love "+(src[row_index][0]) "and" (src[row_index][1)+" on my pizza")
+>>>>>>> 29bdcff77dece5c1bd9028ab4b093b01d5d12f9f
   row_index += 1
 end
 outer_results
