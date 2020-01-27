@@ -30,8 +30,6 @@ end
 
 def total_even_pairs(src)
   
-  
-  
   total = 0
   index = 0
   
